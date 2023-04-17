@@ -18,7 +18,7 @@ a{
 }
 
 
-.title{
+.big-title{
     font-weight: bold;
 }
 .white-button {
@@ -26,13 +26,5 @@ a{
     border-radius: 5px;
     padding: 5px 25px;
     border-width: 1.5px;
-    /* font-family: ; */
-}
-.black-button {
-    background-color: black;
-    border-radius: 5px;
-    padding: 5px;
-    border-width: 1.5px;
-    color: white;
     /* font-family: ; */
 }

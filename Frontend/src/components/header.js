@@ -5,7 +5,7 @@ function Header() {
     <header>
       <nav>
         <ul>
-          <li><a className="title">BERKERLEY APARTMENTS</a></li>
+          <li><a className="big-title">BERKERLEY APARTMENTS</a></li>
         </ul>
         <ul>
           <li><a href="#">How it Works</a></li>

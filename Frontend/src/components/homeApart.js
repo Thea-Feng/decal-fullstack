@@ -1,9 +1,11 @@
 import React from 'react';
 import './homeApart.css'
+import '../public.css'
+
 function HomeApart() {
   return (
    <div className='wrapper'>
-        <div className='title'>
+        <div className='apart-title'>
             <div className='title-text'>Featured Apartments</div>
         </div>
         <div className='gallery-wrap'>

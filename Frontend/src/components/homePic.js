@@ -1,5 +1,7 @@
 import React from 'react';
 import './homePic.css'
+import '../public.css'
+
 function HomePic() {
   return (
    <div className='pic-wrap'>
@@ -14,7 +16,9 @@ function HomePic() {
         </div>
     </div>
     <div className='right'>
-        <div className='main-picture'></div>
+        <div className='main-picture'>
+            <img className='picture-img' alt=''></img>
+        </div>
     </div>
    </div>
   );
