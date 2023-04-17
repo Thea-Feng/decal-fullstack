@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul {
+    display: inline;
+}
+ul li{
+ list-style: none;
+ display: inline;
+ margin-right: 35px;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.title{
+    font-weight: bold;
+}
+.white-button {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 25px;
+    border-width: 1.5px;
+    /* font-family: ; */
+}
+.black-button {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    border-width: 1.5px;
+    color: white;
+    /* font-family: ; */
+}

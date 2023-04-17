@@ -1,0 +1,49 @@
+.pic-wrap {
+    padding: 110px;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    flex: 0 0 40%;
+}
+.right {
+    flex: 0 0 60%;
+}
+.intro-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+
+}
+.intro-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.intro-button-wrap{
+    /* padding: 70px; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+.black-button {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    border-width: 1.5px;
+    color: white;
+    /* font-family: ; */
+}
+.main-picture {
+    width: 60%;
+    height: 300px;
+    background-color: black;
+    margin: 30px;
+}
