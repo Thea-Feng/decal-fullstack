@@ -1,6 +1,6 @@
 import React from 'react';
-import './homePic.css'
-import '../public.css'
+import './homePic.css';
+// import '../public.css';
 
 function HomePic() {
   return (

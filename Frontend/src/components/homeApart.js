@@ -1,6 +1,6 @@
 import React from 'react';
-import './homeApart.css'
-import '../public.css'
+import './homeApart.css';
+import '../public.css';
 
 function HomeApart() {
   return (

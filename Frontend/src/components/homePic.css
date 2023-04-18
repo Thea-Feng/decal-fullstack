@@ -29,14 +29,7 @@
     margin-right: 20px;
     justify-content: space-between;
 }
-.black-button {
-    background-color: black;
-    border-radius: 5px;
-    padding: 5px 10px;
-    border-width: 1.5px;
-    color: white;
-    /* font-family: ; */
-}
+
 .main-picture {
     height: 300px;
     background-color: black;
