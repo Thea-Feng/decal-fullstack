@@ -19,6 +19,7 @@
 .home-gallery-wrap {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .home-garllery-item {

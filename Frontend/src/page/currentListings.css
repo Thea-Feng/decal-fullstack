@@ -9,10 +9,27 @@
     margin-bottom: 50px;
         /* identical to box height */
 }
+
 .listing-gallery-item{
-    flex: 0 0 25%;
+    flex: 0 0 20%;
+    /* margin: 80px 10px; */
+    margin: 2%;
+    padding: 8%;
+    background: #F2F2F2;
 }
-.listing-item-pic{
-    width: 80%;
-    height: 100%;
+.item-picture{
+    width: 20%;
+    /* height: 100%; */
+    background: black;
+}
+.item-description{
+    padding:  2% 5%;
+    width: 20%;
+
+    /* text-align: center; */
+    background: white;
+}
+.sub-description{
+    width: 100%;
+    word-wrap:break-word;
 }

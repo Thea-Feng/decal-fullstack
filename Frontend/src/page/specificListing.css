@@ -1,0 +1,16 @@
+.specificlisting-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    justify-content: space-between;
+    background: #F2F2F2;
+
+}
+.specificlisting-item {
+    flex: 0 0 30%;
+    margin: 2%;
+    padding: 8%;
+    background: white;
+
+}

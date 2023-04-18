@@ -1,5 +1,6 @@
 import React from 'react';
 import '../public.css';
+import './banner.css'
 function Banner() {
   return (
     <div className='banner-wrap'>
