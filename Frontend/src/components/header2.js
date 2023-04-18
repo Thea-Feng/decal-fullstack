@@ -1,10 +1,13 @@
 import React from 'react';
+import './header2.css';
 
 function Header2() {
   return (
     <header>
-      <div className="title">BERKERLEY APARTMENTS</div>
       <nav>
+      <ul>
+          <li><a className="big-title">BERKERLEY APARTMENTS</a></li>
+        </ul>
         <ul>
           <div>Welcome, {}</div>
           <li><a href="#" className='avator'></a></li>

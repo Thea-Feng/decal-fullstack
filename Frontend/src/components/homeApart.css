@@ -16,12 +16,17 @@
     /* identical to box height */
 
 }
-.gallery-wrap {
+.home-gallery-wrap {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
+.home-garllery-item {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .item-pic {
     width: 180px;
     height: 180px;

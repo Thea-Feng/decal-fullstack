@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul {
+    display: inline;
+}
+ul li{
+ list-style: none;
+ display: inline;
+ margin-right: 35px;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.big-title{
+    font-weight: bold;
+}

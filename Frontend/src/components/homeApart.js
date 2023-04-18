@@ -8,20 +8,20 @@ function HomeApart() {
         <div className='apart-title'>
             <div className='title-text'>Featured Apartments</div>
         </div>
-        <div className='gallery-wrap'>
-            <div className='gallery-item'>
+        <div className='home-gallery-wrap'>
+            <div className='home-gallery-item'>
                 <div className='item-pic'>
                     hello
                 </div>
                 <div className='item-name'>Apartment #1</div>
             </div>
-            <div className='gallery-item'>
+            <div className='home-gallery-item'>
                 <div className='item-pic'>
                     hello
                 </div>
                 <div className='item-name'>Apartment #2</div>
             </div>
-            <div className='gallery-item'>
+            <div className='home-gallery-item'>
                 <div className='item-pic'>
                     hello
                 </div>

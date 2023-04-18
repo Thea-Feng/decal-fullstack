@@ -3,6 +3,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import HomePic from "../components/homePic";
 import HomeApart from "../components/homeApart";
+
 function Home() {
   return (
     <div>
