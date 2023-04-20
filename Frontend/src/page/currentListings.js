@@ -25,7 +25,7 @@ function CurrentListings() {
                 <div className='title-text'>Browse Current Listings</div>
             </div>
             <div className='listing-subtitle'>Description</div>
-            <div className='specificlisting-wrapper'>
+            <div className='home-gallery-wrap'>
                 {/* for card */}
                 {
                     pureArr.map(item => (
@@ -35,11 +35,25 @@ function CurrentListings() {
                             </div>
                             <div className='item-description'>
                                 <h5>Apartment #{item}</h5>
-                                <div className='sub-description'>description.....................................................................................</div>
+                                {/* <div className='sub-description'>description...................................................</div> */}
                             </div>
                         </div> 
                     ))
+                    // pureArr.map(item => (
+                    //     <div className='home-gallery-item'>
+                    //         <div className='item-pic'>
+                    //             hello
+                    //         </div>
+                    //         <div className='item-name'>
+                    //             <h5>Apartment #{item}</h5>
+                    //             <div className='sub-description'>description......................................</div>
+                    //         </div>
+                    //     </div> 
+                    // ))
                 }
+
+
+
             </div>
         </div>
       </div>

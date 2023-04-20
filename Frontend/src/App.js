@@ -7,9 +7,9 @@ import SpecificListing from "./page/specificListing";
 function App() {
   return (
     // <Home></Home>
-    <HowItWorks></HowItWorks>
+    // <HowItWorks></HowItWorks>
     // <CurrentListings></CurrentListings>
-    // <SpecificListing></SpecificListing>
+    <SpecificListing></SpecificListing>
   );
 }
 
