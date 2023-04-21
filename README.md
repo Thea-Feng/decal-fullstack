@@ -8,14 +8,16 @@
 
 # File Tree
 - Backend
-  - node-server
   - config
+  - index.js
   - middleware
   - models
-    - user
-    - house
-    - ...
-  - routers
+  - node_modules
+  - package-lock.json
+  - package.json
+  - routes
+  - uploads
+  - utils
 - Frontend
   - public
   - src
