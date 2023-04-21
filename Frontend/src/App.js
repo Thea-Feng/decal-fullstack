@@ -6,10 +6,10 @@ import SpecificListing from "./page/specificListing";
 
 function App() {
   return (
-    // <Home></Home>
+    <Home></Home>
     // <HowItWorks></HowItWorks>
     // <CurrentListings></CurrentListings>
-    <SpecificListing></SpecificListing>
+    // <SpecificListing></SpecificListing>
   );
 }
 
