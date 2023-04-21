@@ -7,17 +7,17 @@
 - Design – Nevin, Klaire
 
 # File Tree
-├── Backend
-│   ├── config
-│   ├── index.js
-│   ├── middleware
-│   ├── models
-│   ├── node_modules
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── routes
-│   ├── uploads
-│   └── utils
+- Backend
+  - config
+  - index.js
+  - middleware
+  - models
+  - node_modules
+  - package-lock.json
+  - package.json
+  - routes
+  - uploads
+  - utils
 - Frontend
   - public
   - src
