@@ -54,7 +54,23 @@ const ListingSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now,
-  },
+  },    
+  }, 
+  {
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
 });
+  
+ListingSchema.virtual('contactInfo', {
+    ref: 'User',
+    localField: 'user',
+    foreignField: '_id',
+    justOne: true,
+});
+  
+ListingSchema.pre(/^find/, function(next) {
+    this.populate('contactInfo', 'email phoneNumber');
+    next();
+})
 
 module.exports = mongoose.model('Listing', ListingSchema);

@@ -30,6 +30,7 @@ router.get('/:id', authMiddleware, async (req, res) => {
   
 // Create a new listing
 router.post('/', authMiddleware, upload.array('images', 3), async (req, res) => {
+    req.body = JSON.parse(req.body.json);
     const { startDate, endDate, location, price, beds, baths, amenities, roommates, roommateInfo, rating } = req.body;
   
     try {
@@ -51,14 +52,13 @@ router.post('/', authMiddleware, upload.array('images', 3), async (req, res) => 
       const savedListing = await newListing.save();
       res.json(savedListing);
     } catch (error) {
-        console.error(error);
-        res.status(500).json({ 
-          message: 'An error occurred while processing your request',
-          error: error.message,
-          stack: error.stack 
-        });
+      console.error(error);
+      res.status(500).json({ 
+        message: 'An error occurred while processing your request',
+      });
     }
-  });  
+  });
+  
 
 // Update a listing
 router.put('/:id', authMiddleware, async (req, res) => {
@@ -121,6 +121,7 @@ router.get('/search', authMiddleware, async (req, res) => {
       const listings = await Listing.find(query).sort(sortOptions);
       res.json(listings);
     } catch (error) {
+      console.error(error);
       res.status(500).json({ message: 'Server Error' });
     }
 });

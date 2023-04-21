@@ -1,4 +1,5 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const userRoutes = require("./routes/userRoutes");
 const listingRoutes = require("./routes/listingRoutes");
 const InitiateMongoServer = require("./config/db");
