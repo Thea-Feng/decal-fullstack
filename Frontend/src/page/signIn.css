@@ -1,0 +1,42 @@
+.signin-space { 
+    width: 100%; 
+    height: 67vh;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-container { 
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 30px;
+    padding-bottom: 45px;
+    border-radius: 10px;    
+}
+
+.signin-container button { 
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#email { 
+    width: 300px;
+}
+
+#password { 
+    width: 300px;
+}
+
+.signin-space p { 
+    font-size: 15px;
+}

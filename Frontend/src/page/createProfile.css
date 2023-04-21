@@ -1,0 +1,49 @@
+.profile-space { 
+    width: 94.4%; 
+    height: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.newprof-container { 
+    background-color: white;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 70%;
+    border: 2px solid black;
+    padding: 31px;
+    padding-bottom: 45px;
+    border-radius: 10px;
+}
+
+.newprof-container button { 
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#name { 
+    width: 300px;
+}
+
+#email { 
+    width: 300px;
+}
+
+#phonenum { 
+    width: 300px;
+}
+
+
+
+
+
