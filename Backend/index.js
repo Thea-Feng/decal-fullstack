@@ -1,6 +1,6 @@
 const express = require("express");
-const bodyParser = require("body-parser");
-const user = require("./routes/user"); 
+const userRoutes = require("./routes/userRoutes");
+const listingRoutes = require("./routes/listingRoutes");
 const InitiateMongoServer = require("./config/db");
 
 // Initiate Mongo Server
@@ -12,18 +12,18 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 // Middleware
-app.use(bodyParser.json());
+app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({ message: "API Working" });
 });
 
-/**
- * Router Middleware
- * Router - /user/*
- * Method - *
- */
-app.use("/user", user);
+// Serve uploaded images
+app.use('/uploads', express.static('uploads'));
+
+// Router Middleware
+app.use("/user", userRoutes);
+app.use("/listings", listingRoutes);
 
 app.listen(PORT, (req, res) => {
   console.log(`Server Started at PORT ${PORT}`);
