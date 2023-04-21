@@ -1,0 +1,100 @@
+.listing-space { 
+    width: 94.4%; 
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.alllisting-button { 
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.listing-container { 
+    width: 50%; 
+    text-align: left;
+    display: flex; 
+    flex-direction: column; 
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.listing-container h1 { 
+    margin-top: 0px;
+}
+
+.listing-info { 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap;
+}
+
+.first-col { 
+    margin-right: 30px;
+    text-align: left;
+}
+
+.second-col { 
+    margin-left: 30px;
+    text-align: left;
+}
+
+#apt-name { 
+    width: 345px;
+}
+
+#apartment-types { 
+    width: 350px;
+}
+
+#lease-start { 
+    width: 350px;
+}
+
+#lease-end { 
+    width: 350px;
+}
+
+#address { 
+    width: 350px;
+}
+
+#rent { 
+    width: 350px;
+}
+
+#lease-len { 
+    width: 350px;
+}
+
+#rating { 
+    width: 350px;
+}
+
+.upload-photos { 
+    margin-top: 20px;
+    background-color: white;
+    font-size: 15px;
+    width:100px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.submit-listing { 
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 0px;
+}
