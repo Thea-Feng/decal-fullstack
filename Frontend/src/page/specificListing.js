@@ -42,9 +42,9 @@ function SpecificListing() {
             <div className='item-title'>Rooms</div>
             <ul>
                 <div>1 bedroom</div>
-                <div>1 bedroom</div>
-                <div>1 bedroom</div>
-                <div>1 bedroom</div>
+                <div>1 bathroom</div>
+                <div>1 kitchen</div>
+                <div>1 living room</div>
             </ul>
         </div>
 

@@ -5,6 +5,7 @@ import './createProfile.css';
 import { useNavigate } from 'react-router';
 function CreateProfile() { 
     const navigate = useNavigate()
+
     return (
         <div>
             <Header></Header>
@@ -22,7 +23,7 @@ function CreateProfile() {
                     <h2>Password</h2>
                     <input type="password" id="password" name="password" placeholder="password"></input>
                     <br></br>
-                    <button onClick={()=>{navigate("/sigIn")}}>Create</button>
+                    <button onClick={()=>{navigate("/signIn")}}>Create</button>
                 </div>
             </div>
             <Footer></Footer>
