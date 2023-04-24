@@ -10,7 +10,7 @@ function CurrentListings(props) {
     const pureArr = 
     [
         {
-        "title": "Addison Apartments",
+        "title": "The Laureate",
         "source": "https://www.addisonartsapartments.com/wp-content/themes/addisionone/img/addisonnew.jpg"
       },
       {
