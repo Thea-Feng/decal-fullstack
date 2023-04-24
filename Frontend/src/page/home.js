@@ -5,16 +5,24 @@ import HomePic from "../components/homePic";
 import HomeApart from "../components/homeApart";
 import {useState} from "react";
 import Header2 from '../components/header2';
-
+import { useLocation } from 'react-router-dom';
 
 function Home() {
-  const [isLogin, setIsLogin] = useState(false);
+  let login = false;
+  try {
+    let location = useLocation()
+    let data = location.state
+    if(data.login) login = true
+  } catch {
+
+  }
+  const [isLogin, setIsLogin] = useState(login);
   return (
     <div>
       {isLogin ? <Header2></Header2> : <Header></Header>}
-      <HomePic></HomePic>
-      <HomeApart></HomeApart> 
-      <Footer></Footer>
+      <HomePic isLogin={isLogin}></HomePic>
+      <HomeApart isLogin={isLogin}></HomeApart> 
+      <Footer isLogin={isLogin}></Footer>
       
     </div>
       

@@ -32,7 +32,12 @@
 
 .main-picture {
     height: 300px;
-    background-color: black;
+    /* background-color: black; */
     margin: 30px;
+    overflow: hidden;
+}
+.main-img {
+    height: 300px;
+    width: 500px;
 }
 

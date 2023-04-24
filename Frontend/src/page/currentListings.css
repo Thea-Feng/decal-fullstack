@@ -19,17 +19,23 @@
 
 }
 .item-picture{
-    width: 100%;
+    width: 200px;
     height: 180px;
-    background: black;
+    background: white;
+    padding:  5% 5%;
+    /* overflow: hidden; */
 }
 .item-description{
     padding:  2% 5%;
-    /* text-align: center; */
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
     background: white;
 }
-.sub-description{
-    /* flex: 0 0 30%; */
-    width: 100%;
-    word-wrap:break-word;
+
+.subimg{
+    width: 200px;
+    height: 200px;
+    /* flex: 1; */
+    
 }

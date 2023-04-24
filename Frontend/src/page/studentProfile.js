@@ -2,9 +2,10 @@ import React from 'react';
 import Header2 from "../components/header2";
 import Footer from "../components/footer";
 import './studentProfile.css';
-
+import { useNavigate } from 'react-router';
 
 function StudentProfile() { 
+    const navigate = useNavigate()
     return (
         <div>
             <Header2></Header2>
@@ -13,8 +14,8 @@ function StudentProfile() {
                     <div></div>
                 </ul>
                 <ul>
-                    <li><button className='white-button' src=''>All Listings</button></li>
-                    <li><button className='white-button' src=''>List an Apartment</button></li>
+                    <li onClick={()=>{navigate("/currentListing", {state:{isLogin:true}})}}><button className='white-button' src=''>All Listings</button></li>
+                    <li onClick={()=>{navigate("/newListing", {state:{isLogin:true}})}}><button className='white-button' src=''>List an Apartment</button></li>
                 </ul>
             </nav>
             <div class="main-space">

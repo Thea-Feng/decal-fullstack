@@ -1,0 +1,111 @@
+{
+  "Home":
+  {
+    "HomeScreen1": {
+      "title": "Matching you with your dream apartment",
+      "body": "We match you with living spaces tailored to your wants and needs.",
+      "source": "https://d3qvqlc701gzhm.cloudfront.net/thumbs/72faedaefe8cc6a5d08cf0b61e83813441db0f754d1077429eb0b777e53dbba3-750.jpg"
+    },
+    "HomeScreen2": {
+      "title": "Featured Apartments",
+      "body": "Jones Berkeley Apartments",
+      "source": "https://jonesberkeley.com/wp-content/uploads/2020/08/Jones-Berkeley-1400x933.jpg"
+    },
+    "HomeScreen3": {
+      "title": "Featured Apartments",
+      "body": "Enclave Apartments",
+      "source": "https://housing.berkeley.edu/wp-content/uploads/20210506_RSFCampus_bhs_080-750x500-1-700x500.jpg"
+    },
+    "HomeScreen4": {
+      "title": "Featured Apartments",
+      "body": "Garden Village Apartments",
+      "source": "https://images1.apartments.com/i2/aLj53Xf8O_gp4K6LaRxHoVQ8GH9GBJvNUAIP_A6Xd00/111/garden-village-berkeley-ca-primary-photo.jpg"
+    }
+  }
+}
+
+{
+  "How it Works":
+  {
+    "HowItWorks1": {
+      "title": "Create an Account",
+      "body": "Create an account and log in with your Berkeley email to find the perfect housing solution for your needs in this vibrant city.",
+      "source": "https://cdni.iconscout.com/illustration/premium/thumb/create-account-6333606-5230166.png"
+    },
+    "HowItWorks2": {
+      "title": "List an Apartment",
+      "body": "To list your apartment on our website, simply create an account and provide the necessary information about your rental property. Our platform allows you to upload photos and details about your apartment to attract potential renters and find the perfect tenant.",
+      "source": "https://www.transparentpng.com/details/apartment-clipart-hd_11023.html"
+    },
+    "HowItWorks3": {
+      "title": "Contact a Seller",
+      "body": "Once you find an apartment you like, you can easily contact the seller by either clicking on the provided email address or phone number on our website. From there, you can initiate contact and begin the process of setting up a viewing or negotiating the rental terms.",
+      "source": "https://selleracademy.digikala.com/wp-content/uploads/2018/10/Support.png"
+    }
+  }
+}
+
+{
+  "Current Listings":
+  {
+    "CurrentListings1": {
+      "title": "Addison Apartments",
+      "source": "https://www.addisonartsapartments.com/wp-content/themes/addisionone/img/addisonnew.jpg"
+    },
+    "CurrentListings2": {
+      "title": "Identity",
+      "source": "https://www.identityloganpark.com/images/update-pages-images/hero-identity-dinkytown-3.jpg"
+    },
+    "CurrentListings3": {
+      "title": "Varsity Berkeley",
+      "source": "https://medialibrarycf.entrata.com/15647/MLv3/3/21/2022/2/4/9601/60b7ab36cf4632.14762165555.jpg"
+    },
+    "CurrentListings4": {
+      "title": "Manville Apartments",
+      "source": "https://housing.berkeley.edu/wp-content/uploads/MV-5-700x500.jpg"
+    },
+    "CurrentListings5": {
+      "title": "Jones Berkeley",
+      "source": "https://s7d9.scene7.com/is/image/greystarprod/16614RND1?qlt=72&wid=600"
+    },
+    "CurrentListings6": {
+      "title": "Blake",
+      "source": "https://s7d9.scene7.com/is/image/greystarprod/18375RND1?qlt=72&wid=600"
+    },
+    "CurrentListings7": {
+      "title": "University Park Apartments",
+      "source": "https://www.universityparkberkeley.com/wp-content/uploads/elementor/thumbs/university-park-berkeley-aerial-3-pnrw9sm8v3ko1zej0xruhmswu3oum3ldecdsmwvdtk.jpg"
+    },
+    "CurrentListings8": {
+      "title": "The Granada",
+      "source": "https://www.rentbtberkeley.com/images/site/granada/carousel/01_gr_front.jpg"
+    }
+  }
+}
+
+{
+  "Specific Listing":
+  {
+    "SpecificListing1": {
+      "title": "The Laureate",
+      "body": "Studio Apartment",
+      "source": "https://images1.apartments.com/i2/Tix7kFLILWXermQ2X_qspLQBKOITQeWxJvJlI8KYxO4/117/the-laureate-berkeley-ca-building-photo.jpg?p=1"
+    },
+    "SpecificListing2": {
+      "source": "https://images1.apartments.com/i2/3pOtQeG0zDN78hxe_mQSPlCjhmb3rCK2IPZHqGj6OaE/117/the-laureate-berkeley-ca-4br-3ba---plan-f2.jpg?p=1"
+    },
+    "SpecificListing3": {
+      "source": "https://images1.apartments.com/i2/bxsU0S8r6V95MHjnnI7635zVky97E_LH-UZoFDSDSrs/117/the-laureate-berkeley-ca-building-photo.jpg?p=1"
+    }
+  }
+}
+
+{
+ "Student Profile":
+ {
+  "StudentProfile1": {
+    "title": "Oski Bear",
+    "source": "https://news.berkeley.edu/wp-content/uploads/2016/09/Oskicupcake750.jpg"
+  }
+ } 
+}

@@ -11,6 +11,11 @@
     flex: 0 0 30%;
     margin: 2%;
     padding: 8%;
+    overflow: hidden;
     background: white;
 
+}
+.pureImg {
+    height: 300px;
+    width: 400px;
 }
