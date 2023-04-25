@@ -18,10 +18,10 @@ function SignIn() {
                     <h2>Password</h2>
                     <input type="password" id="password" name="password" placeholder="password"></input>
                     <br></br>
-                    <button onClick={()=>{navigate("/", {state: {login:true}})}}>Sign in</button>
+                    <button onClick={()=>{navigate("/", {state: {isLogin:true}})}}>Sign in</button>
                     <br></br>
                     <br></br>
-                    <p onClick={()=>{navigate("/createProfile", {state: {login:true}})}}>Don't have an account?</p>
+                    <p onClick={()=>{navigate("/createProfile", {state: {isLogin:true}})}}>Don't have an account?</p>
                 </div> 
             </div>
             <Footer></Footer>

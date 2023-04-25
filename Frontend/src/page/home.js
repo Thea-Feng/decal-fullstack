@@ -12,7 +12,7 @@ function Home() {
   try {
     let location = useLocation()
     let data = location.state
-    if(data.login) login = true
+    if(data.isLogin) login = true
   } catch {
 
   }
