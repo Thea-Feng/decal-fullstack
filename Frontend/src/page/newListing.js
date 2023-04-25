@@ -50,25 +50,9 @@ function NewListing() {
                             <h3>Leasing End</h3>
                             <input type="date" id="lease-end"></input>
                             <h3>Rooms</h3>
-                            <textarea name="paragraph" cols="50" rows="10" placeholder="bedrooms, bathrooms, living room, kitchen, etc..."></textarea>
-                            {/* <h3>Bedrooms</h3>
-                            <select name="num-beds" id="num-beds">
-                                <option value="empty">---</option>
-                                <option value="1bed">1 bedroom</option>
-                                <option value="2bed">2 bedroom</option>
-                                <option value="3bed">3 bedroom</option>
-                                <option value="4bed">4 bedroom</option>
-                            </select>
-                            <h3>Bathrooms</h3>
-                            <select name="num-baths" id="num-bath">
-                                <option value="empty">---</option>
-                                <option value="1bath">1 bath</option>
-                                <option value="2bath">2 bath</option>
-                                <option value="3bath">3 bath</option>
-                                <option value="4bath">4 bath</option>
-                            </select> */}
+                            <textarea id="room-desc" cols="50" rows="10" placeholder="bedrooms, bathrooms, living room, kitchen, etc..."></textarea>
                             <h3>Contact Information</h3>
-                            <textarea name="paragraph" cols="50" rows="10" placeholder="email, phone number, socials..."></textarea>
+                            <textarea id="contact-info" cols="50" rows="10" placeholder="email, phone number, socials..."></textarea>
                         </div> 
                         <div class="second-col">
                             <h3>Address</h3>
@@ -86,9 +70,9 @@ function NewListing() {
                             <h3>Rating</h3>
                             <input type="number" id="rating" placeholder="out of 5"></input>
                             <h3>Amenities</h3>
-                            <textarea name="paragraph" cols="50" rows="10" placeholder="in-unit laundry, rooftop, gym, etc..."></textarea>
+                            <textarea id="amenities-desc" cols="50" rows="10" placeholder="in-unit laundry, rooftop, gym, etc..."></textarea>
                             <h3>Additional Information</h3>
-                            <textarea name="paragraph" cols="50" rows="10"></textarea>
+                            <textarea id="additional-info" cols="50" rows="10"></textarea>
                         </div>
                     </div>
                     <div class="listing-buttons">

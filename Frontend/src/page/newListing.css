@@ -1,78 +1,85 @@
-.listing-space { 
-    width: 94.4%; 
-    height: 100%;
-    background-color: #f2f2f2;
-    padding: 50px;
-}
-
 .alllisting-button { 
     width: 50%;
     margin-bottom: 30px;
 }
 
-.listing-container { 
-    width: 50%; 
-    text-align: left;
-    display: flex; 
-    flex-direction: column; 
-    border: 2px solid black;
-    margin: auto;
-    margin-bottom: 50px;
+.listing-space { 
+    width: 94.4%; 
+    height: 100%; 
+    background-color: #f2f2f2;
     padding: 50px;
-    background-color: white;
-    border-radius: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
-.listing-container h1 { 
-    margin-top: 0px;
+.listing-container { 
+    display: inline;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
 }
 
 .listing-info { 
     display: flex; 
     flex-direction: row; 
-    flex-wrap: nowrap;
 }
 
 .first-col { 
     margin-right: 30px;
-    text-align: left;
 }
 
 .second-col { 
     margin-left: 30px;
-    text-align: left;
 }
 
 #apt-name { 
-    width: 345px;
+    width: 70%;
 }
 
 #apartment-types { 
-    width: 350px;
+    width: 70%;
 }
 
 #lease-start { 
-    width: 350px;
+    width: 70%;
 }
 
 #lease-end { 
-    width: 350px;
+    width: 70%;
 }
 
 #address { 
-    width: 350px;
+    width: 70%;
 }
 
 #rent { 
-    width: 350px;
+    width: 70%;
 }
 
 #lease-len { 
-    width: 350px;
+    width: 70%;
 }
 
 #rating { 
-    width: 350px;
+    width: 70%;
+}
+
+#room-desc { 
+    width: 70%; 
+}
+
+#contact-info { 
+    width: 70%;
+}
+
+#amenities-desc { 
+    width: 70%; 
+}
+
+#additional-info { 
+    width: 70%;
 }
 
 .upload-photos { 
@@ -97,4 +104,4 @@
     cursor: pointer;
     float: right;
     margin-bottom: 0px;
-}
+} 
